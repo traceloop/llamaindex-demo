@@ -10,6 +10,7 @@ poetry install
 
 ```python
 export OPENAI_API_KEY=<your openai api key>
+export COHERE_API_KEY=<your cohere api key>
 export TRACELOOP_API_KEY=<your traceloop api key>
 ```
 
@@ -26,3 +27,7 @@ Demos:
 1. `llamaindex-demo/chat.py` - An interactive chat allowing you to ask questions about Paul Graham's indexed essays.
 
    <img width="600" src="https://raw.githubusercontent.com/traceloop/llamaindex-demo/main/img/chat.png">
+
+2. `llamaindex-demo/query-rewriting.py` - Demonstrating multi-step RAG pipeline with query rewriting and re-ranking.
+
+   <img width="600" src="https://raw.githubusercontent.com/traceloop/llamaindex-demo/main/img/query-rewriting.png">

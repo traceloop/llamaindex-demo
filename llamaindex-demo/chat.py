@@ -20,6 +20,7 @@ st.set_page_config(
     menu_items=None,
 )
 st.title("Chat App with LlamaIndex and OpenLLMetry")
+st.info("Ask me a question about Paul Graham's essays!")
 
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
     st.session_state.messages = [
