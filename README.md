@@ -24,10 +24,14 @@ poetry run streamlit run llamaindex-demo/<demo name>.py
 
 Demos:
 
-1. `llamaindex-demo/chat.py` - An interactive chat allowing you to ask questions about Paul Graham's indexed essays.
+1. `poetry run streamlit run llamaindex-demo/chat.py` - An interactive chat allowing you to ask questions about Paul Graham's indexed essays.
 
    <img width="600" src="https://raw.githubusercontent.com/traceloop/llamaindex-demo/main/img/chat.png">
 
-2. `llamaindex-demo/query-rewriting.py` - Demonstrating multi-step RAG pipeline with query rewriting and re-ranking.
+2. `poetry run streamlit run llamaindex-demo/query-rewriting.py` - Demonstrating multi-step RAG pipeline with query rewriting and re-ranking.
 
    <img width="600" src="https://raw.githubusercontent.com/traceloop/llamaindex-demo/main/img/query-rewriting.png">
+
+3. `poetry run streamlit run llamaindex-demo/agent.py` - Demonstrating an autonomous agent with LlamaIndex.
+
+   <img width="600" src="https://raw.githubusercontent.com/traceloop/llamaindex-demo/main/img/agent.png">
